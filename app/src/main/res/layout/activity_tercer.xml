@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TercerActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selection"
+                app:srcCompat="@drawable/ale" />
+
+            <ImageView
+                android:id="@+id/barley_wine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selection"
+                app:srcCompat="@drawable/arleywine" />
+
+            <ImageView
+                android:id="@+id/dark_ales"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selection"
+                app:srcCompat="@drawable/darales" />
+
+            <ImageView
+                android:id="@+id/laguer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selection"
+                app:srcCompat="@drawable/detrigo" />
+
+            <ImageView
+                android:id="@+id/pale_ale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selection"
+                app:srcCompat="@drawable/paleale" />
+
+            <ImageView
+                android:id="@+id/porter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selection"
+                app:srcCompat="@drawable/porter" />
+
+            <ImageView
+                android:id="@+id/stout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/descripcion"
+                android:onClick="Selection"
+                app:srcCompat="@drawable/stout" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

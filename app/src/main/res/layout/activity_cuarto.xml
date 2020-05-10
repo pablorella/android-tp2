@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuartoActivity">
+
+   <WebView
+       android:id="@+id/webview"
+       android:layout_width="wrap_content"
+       android:layout_height="630dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="5dp"
+       android:layout_marginLeft="5dp"
+       android:layout_marginTop="100dp"
+       android:layout_marginEnd="4dp"
+       android:layout_marginRight="4dp"
+       android:layout_marginBottom="10dp" />
+
+   <Button
+       android:id="@+id/link1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="27dp"
+       android:layout_marginLeft="27dp"
+       android:layout_marginTop="20dp"
+       android:onClick="link1"
+       android:text="@string/link1" />
+
+   <Button
+       android:id="@+id/link2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_marginTop="20dp"
+       android:layout_marginEnd="174dp"
+       android:layout_marginRight="174dp"
+       android:onClick="link2"
+       android:text="@string/link2" />
+
+   <Button
+       android:id="@+id/link3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_marginTop="21dp"
+       android:layout_marginEnd="51dp"
+       android:layout_marginRight="51dp"
+       android:onClick="link3"
+       android:text="@string/link3" />
+</RelativeLayout>

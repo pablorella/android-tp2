@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tp2-appmobile</string>
+    <string name="Boton1raActividad">Cervezas Habituales</string>
+    <string name="Boton2daActividad">Clasificacion</string>
+    <string name="Boton3raActividad">Sitios de Interes</string>
+    <string name="tv1">Los tipos de cerveza y sus nombres</string>
+    <string name="BotonAnterior">Atras</string>
+    <string name="tv2">Tipos de Cerveza</string>
+    <string name="descripcion">descripcion</string>
+    <string name="txt_laguer">Cerveza laguer</string>
+    <string name="txt_laguer_descripcion">Seguro que has oído hablar mil veces palabras como lager, ale, stout entre otras para referirse a cervezas, pero ¿sabes lo que significan y qué tipos de cerveza representan? Este artículo te explica cuáles son los principales tipos de cerveza y cuáles son sus nombres.</string>
+    <string name="link1">Link 1</string>
+    <string name="link2">Link 2</string>
+    <string name="link3">Link 3</string>
+</resources>
